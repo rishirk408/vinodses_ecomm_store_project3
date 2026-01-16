@@ -17,6 +17,7 @@ spec:
     containers:
     - name: ecommstorecontainer
       image: rishirk408/ecomm_store
+      imagePullPolicy: Always
       ports:
       - containerPort: 80
 ---
